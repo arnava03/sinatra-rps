@@ -17,7 +17,7 @@ get("/rock") do
   @move = moves.sample
   if @move == "rock"
     @outcome = "tied"
-  elsif @move == "paper"
+  elsif @move == "scissors"
     @outcome = "won"
   else
     @outcome = "lost"
